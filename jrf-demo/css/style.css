@@ -5577,3 +5577,11 @@ ul.tweets li span {
 .ie8 .overlay-container:hover .overlay { 
 	display: block;
 }
+/* FB 自適應
+----------------------------------------------------------------------------- */
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+  min-width: 100% !important;
+  width: 100% !important;
+}
