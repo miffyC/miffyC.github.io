@@ -28,7 +28,7 @@ html {
 	height: 100%;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans',;
 	font-size: 15px;
 	line-height: 1.50;
 	color: #666666;
@@ -46,6 +46,7 @@ h5,
 h6 {
 	color: #343434;
 	line-height: 1.2;
+	font-family:"微軟正黑體";
 }
 h1 a,
 h2 a,
@@ -5576,12 +5577,4 @@ ul.tweets li span {
 .ie8 .overlay-container:hover a.overlay i,
 .ie8 .overlay-container:hover .overlay { 
 	display: block;
-}
-/* FB 自適應
------------------------------------------------------------------------------ */
-.fb_iframe_widget,
-.fb_iframe_widget span,
-.fb_iframe_widget span iframe[style] {
-  min-width: 100% !important;
-  width: 100% !important;
 }
