@@ -1,4 +1,4 @@
-/* Theme Name:iDea - Clean & Powerful Bootstrap Theme
+﻿/* Theme Name:iDea - Clean & Powerful Bootstrap Theme
 Author:HtmlCoder
 Author URI:http://www.htmlcoder.me
 Author e-mail:htmlcoder.me@gmail.com
@@ -1216,7 +1216,7 @@ tbody {
 	margin: 0 0 20px 0;
 }
 .blogpost.full .overlay-container {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 /* Small devices (tablets, phones less than 767px) */
@@ -1814,7 +1814,7 @@ tbody {
 .list-with-image .overlay-container {
 	float: left;
 	width: 80px;
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 .list-with-image h2,
 .list-with-image p {
@@ -3158,9 +3158,9 @@ ul.pagination li > a:focus {
 .overlay {
 	position: absolute;
 	top: 0;
-	bottom: -1px;
+	bottom: 0;
 	left: 0;
-	right: -1px;
+	right: 0;
 	background-color: rgba(241, 241, 241, 0.85);
 	overflow: hidden;
 	opacity: 0;
@@ -3175,8 +3175,8 @@ ul.pagination li > a:focus {
 }
 .overlay a {
 	display: inline-block;
-	width: 50px;
-	height: 50px;
+	width: 0px;
+	height: 0px;
 	font-size: 26px;
 	color: #e84c3d;
 	background-color: #ffffff;
@@ -3184,13 +3184,13 @@ ul.pagination li > a:focus {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -25px;
-	margin-left: -25px;
+	margin-top: 0;
+	margin-left: 0;
 }
 .overlay span {
 	position: absolute;
 	display: block;
-	bottom: 10px;
+	bottom: 0px;
 	text-align: center;
 	width: 100%;
 	color: #000000;
