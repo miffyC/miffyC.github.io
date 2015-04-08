@@ -1099,6 +1099,7 @@ tbody {
 .blogpost .submitted {
 	font-size: 12px;
 	margin: 10px 0;
+	color:#b73c5a;
 }
 .blogpost .side {
 	float: left;
@@ -1324,6 +1325,7 @@ tbody {
 }
 .masonry-grid .blogpost .submitted {
 	margin: 15px 0 10px;
+	color:#b73c5a;
 }
 .masonry-grid .blogpost .blogpost-content {
 	margin-left: 0;
