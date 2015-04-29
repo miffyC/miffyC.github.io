@@ -698,15 +698,7 @@ tbody {
 	z-index: 3;
 	position: relative;
 }
-.parallax-bg {
-	background: url("../images/parallax-bg.jpg") 50% 0px no-repeat;
-}
-.parallax-bg-2 {
-	background: url("../images/parallax-bg-2.jpg") 50% 0px no-repeat;
-}
-.parallax-bg-3 {
-	background: url("../images/parallax-bg-3.jpg") 50% 0px no-repeat;
-}
+
 
 /* Custom Grid
 ---------------------------------- */
@@ -1099,7 +1091,6 @@ tbody {
 .blogpost .submitted {
 	font-size: 12px;
 	margin: 10px 0;
-	color:#b73c5a;
 }
 .blogpost .side {
 	float: left;
@@ -1325,7 +1316,6 @@ tbody {
 }
 .masonry-grid .blogpost .submitted {
 	margin: 15px 0 10px;
-	color:#b73c5a;
 }
 .masonry-grid .blogpost .blogpost-content {
 	margin-left: 0;
@@ -3197,7 +3187,6 @@ ul.pagination li > a:focus {
 	text-align: center;
 	width: 100%;
 	color: #000000;
-	font-style: italic;
 }
 .overlay-links {
 	display: block;
