@@ -73,26 +73,37 @@
 <!-- main start -->
 <!-- ================ -->
 <div class="main col-md-10">
-  <h1 class="text-center">新增次目錄</h1>
-  <pre>名稱建議小於8個字</pre>
-  <form role="form">
-    <div class="form-group">
-      <label>次目錄名稱</label>
-      <input type="text" class="form-control" id="" placeholder="建議小於8個字">
-    </div>
-    <div class="form-group">
-      <label>在哪個主目錄下？</label>
-      <select id="" class="form-control">
-        <option>catalog1</option>
-        <option>catalog2</option>
-        <option>catalog3</option>
-        <option>catalog4</option>
-        <option>catalog5</option>
-      </select>
-    </div>
-    <button type="submit" class="btn btn-default">新增</button>
-    to雨蒼:新增後跳轉admin-category-edit.html
-  </form>
+  <h1 class="text-center">修改/刪除主目錄</h1>
+  <pre>若主目錄內有次目錄則無法進行刪除！</pre>
+  <table class="table">
+  <thead>
+  <tr>
+  <td>主目錄名稱</td>
+  <td>次目錄</td>
+  <td>編輯/刪除</td>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>catalog1</td>
+  <td>category<br>category<br>category</td>
+  <td><a href="admin-catalog-edit.html" class="btn radius btn-white btn-sm">編輯</a> <a href="#" class="btn radius btn-default btn-sm">刪除</a>
+</td>
+  </tr>
+  <tr>
+  <td>catalog2</td>
+  <td>category<br>category<br>category</td>
+  <td><a href="admin-catalog-edit.html" class="btn radius btn-white btn-sm">編輯</a> <a href="#" class="btn radius btn-default btn-sm">刪除</a>
+</td>
+  </tr>
+  <tr>
+  <td>catalog3</td>
+  <td>category<br>category<br>category</td>
+  <td><a href="admin-catalog-edit.html" class="btn radius btn-white btn-sm">編輯</a> <a href="#" class="btn radius btn-default btn-sm">刪除</a>
+</td>
+  </tr>
+  </tbody>
+  </table>
 </div>
 <!-- main end -->
 <!-- JavaScript files placed at the end of the document so the pages load faster
