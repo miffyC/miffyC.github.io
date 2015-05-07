@@ -1,0 +1,21 @@
+/*
+Theme Name: iDea - Clean & Powerful Bootstrap Theme
+Author: HtmlCoder
+Author URI: http://www.htmlcoder.me
+Author e-mail: htmlcoder.me@gmail.com
+Version: 1.1.0 
+Created: August 2014
+License URI: http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+
+.sortable-placeholder {
+  border: 1px dashed #CCC;
+  background-color: #f9f9f9;
+  height: 80px;
+  margin-bottom: 10px;
+}
+ 
+.sortable {
+  display: list-item;
+}
