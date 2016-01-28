@@ -27,4 +27,16 @@ h1.title {
 }
 h4 {
 	font-size: 20px;
-	｝
+	}
+
+blockquote:before {
+	content: "“";
+	width: 25px;
+	height: 25px;
+	line-height: 64px;
+	font-size: 64px;
+	position: absolute;
+	top: 12px;
+	left: -45px;
+	font-family: 'PT Serif', serif;
+}
