@@ -10,10 +10,11 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require jquery-ui
  *= require bootstrap_and_overrides
  *= require font-awesome
  *= require fontello
+ *= require settings
+ *= require extralayers
  *= require magnific-popup
  *= require animate
  *= require animations
@@ -21,8 +22,7 @@
  *= require style
  *= require skins/red
  *= require custom
- *= require admin-sort
- *= require jquery.datetimepicker
- *= require chosen
+ *= require social-share-button
  *= require_self
  */
+
