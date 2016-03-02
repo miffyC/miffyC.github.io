@@ -52,10 +52,13 @@ blockquote:before {
 li.keyword-list + li.keyword-list:before{
 	content:"、";
 	}
-i.title-icon-margin{
+h2 i{
 	margin:3px;
 }
 .list-icons{
-	text-indent : -25px ;
-	margin-left:40px;
+	text-indent : -10px ;
+	margin-left:15px;
+}
+.dropdown-menu {
+	transition: all 1.2s ease-in-out;
 }
