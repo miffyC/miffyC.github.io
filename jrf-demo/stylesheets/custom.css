@@ -59,6 +59,10 @@ h2 i{
 	text-indent : -10px ;
 	margin-left:15px;
 }
-.dropdown-menu {
-	transition: all 1.2s ease-in-out;
+.blogpost-content h4.title {
+	font-size:18px;
+	height:60px;
+}
+.owl-controls .owl-pagination{
+	bottom: 0px;
 }

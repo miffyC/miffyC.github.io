@@ -1,0 +1,38 @@
+/*
+Theme Name: iDea - Clean & Powerful Bootstrap Theme
+Author: HtmlCoder
+Author URI: http://www.htmlcoder.me
+Author e-mail: htmlcoder.me@gmail.com
+Version: 1.1.0 
+Created: August 2014
+License URI: http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  font-family: 'Open Sans', Helvetica, Arial, "Source Han Sans TC", "Microsoft Jhenghei", sans-serif;
+	font-size: large;
+	line-height: 1.60;
+	color: #666666;
+	background-color: #ffffff
+}
+span.glyphicon, 
+span.label{
+	margin-right:5px;
+}
+.modal-title{
+	font-weight: 500;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
