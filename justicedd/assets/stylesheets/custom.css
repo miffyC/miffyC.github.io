@@ -9,7 +9,7 @@ License URI: http://support.wrapbootstrap.com/
 File Description: Place here your custom CSS styles
 */
 body {
-  min-height: 2000px;
+  min-height: 0px;
   padding-top: 70px;
   font-family: 'Open Sans', Helvetica, Arial, "Source Han Sans TC", "Microsoft Jhenghei", sans-serif;
 	font-size: large;
