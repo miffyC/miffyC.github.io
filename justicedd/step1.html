@@ -9,7 +9,8 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" 
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/stylesheets/custom.css">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,11 +31,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand active" href="index.html">全民司法改革運動</a>
+          <a class="navbar-brand" href="index.html">全民司法改革運動</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="step1.html">收集病徵</a></li>
+            <li class="active"><a href="step1.html">收集病徵</a></li>
             <li><a href="#">釐清病因</a></li>
             <li><a href="#">找出處方</a></li>
           </ul>
@@ -59,25 +60,123 @@
       </div>
 <!-- 佈告欄end -->
 
-    <p class="lead">「台灣的司法怎麼了？ 」</p>
-    <p>這些年，我們習慣了每天望著新聞裡一件又一件的司法爭議案件，每一次我們都不由得在心裡響起這樣的疑問：「台灣的司法怎麼了？」然後每一次，繼續為自己的無能為力嘆息… 日前媒體紛紛引用一份民意調查指出，台灣民眾對於院檢司法官的不信任度，依然超過八成。然而，回首司法改革的路上，台灣不是沒有努力過。</p>
-    <p>1999年，司法院為了回應民間以翻轉貪腐保守的司法風氣做為號召，展開一場為期三天的「全國司改會議」。這場大會集結了上百位院、部、審、檢、辯、學、中央民代、警界、民間團體等各界重要代表，更留下兩本堪稱巨冊的會議紀錄，以作為日後司法改革的重要依據。那個夏天，司法改革的大旗被高高揚起，眾人齊心集力，前進的路上看似充滿著希望。</p>
-    <p>然而，十六年過去了。2016年的今天，我們依然活在一個對司法充滿不信任的社會裡。十六年來的改革，真的一點作用都沒有嗎？作為台灣社會的一份子，除了質疑司法制度，我們又能夠做什麼呢？</p>
-    <p>如果你還對台灣的司法懷有期許和熱情，現在，就是你站出來的時候。</p>
-    <p>參與司法改革一點都不難。只需要「三招三式」，一切就有可能。</p>
-    <p>三招：</p>
-    <ol>
-      <li>擴大參與</li>
-      <li>資訊公開</li>
-      <li>尋求共識</li>
-    </ol>
-    <p>三式：</p>
-    <ol>
-      <li>釐清司法病症</li>
-      <li>診斷病因</li>
-      <li>提出解方</li>
-    </ol>
-    <p>2016年4月20日，期待你的加入，讓我們一起把所有對司法的質疑，化為改革的希望與動力！</p>
+		<h1><span class="glyphicon glyphicon-check"></span>我覺得…</h1>
+    <p class="lead">有相同的經歷嗎？請勾選</p>
+<!-- 問題清單 -->
+<section>
+    <div class="btn-group btn-group-sm" data-toggle="buttons">
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option1">由新至舊
+            </label>
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option2">由多至少
+            </label>
+            <label class="btn btn-default">
+              <input type="radio" name="options" id="option2">近期熱門
+            </label>
+    </div>
+    <table class="table table-hover">
+    <thead>
+      <tr>
+        <th width="8%">累計</th>
+        <th>病徵描述</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="label label-danger"><span class="glyphicon glyphicon-user"></span>101</span>
+        </td>
+        <td>
+          <input type="checkbox" value="symp-1" checked>
+          <label></label>
+          <a data-toggle="modal" href="#symp-1">我的案子審了好久，我真的覺得好累…</a>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
+        <td>
+          <input type="checkbox" value="symp-2">
+          <label></label>
+          <a data-toggle="modal" href="#symp-2">我拿不到我自己案子的閱卷資料、光碟。</a>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
+        <td>
+          <input type="checkbox" value="symp-2">
+          <label></label>
+          <a data-toggle="modal" href="#symp-2">我拿不到我自己案子的閱卷資料、光碟。</a>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
+        <td>
+          <input type="checkbox" value="symp-2">
+          <label></label>
+          <a data-toggle="modal" href="#symp-2">我拿不到我自己案子的閱卷資料、光碟。</a>
+        </td>
+      </tr>
+      <tr>
+        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
+        <td>
+          <input type="checkbox" value="symp-2">
+          <label></label>
+          <a data-toggle="modal" href="#symp-2">我拿不到我自己案子的閱卷資料、光碟。</a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+</section>
+<!-- 問題清單end --> 
+    <p class="lead">有更多不一樣的經歷？請告訴我們</p>
+    <p class="text-center">
+    <a class="btn btn-default btn-lg" href="https://forum.jrf.org.tw/" target="_blank">分享經歷</a></p>
+    
+    </div>
+<!-- 經驗故事1 -->
+<div id="symp-1" class="modal fade in">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="symp-1">我的案子審了好久，我真的覺得好累…</h4>
+          </div>
+          <div class="modal-body small">
+            <p>一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十</p>
+            <hr>
+            <p>一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十</p>
+          </div>
+          <div class="modal-footer">
+          <a class="btn btn-default" data-dismiss="modal">關閉</a>
+            <a href="https://forum.jrf.org.tw/c/lawyer/9-category" target="_blank" class="btn btn-primary" >更多討論</a>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+<!-- 經驗故事1end -->
+<!-- 經驗故事2 -->
+<div id="symp-2" class="modal fade in">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" id="symp-2">我拿不到我自己案子的閱卷資料、光碟。</h4>
+          </div>
+          <div class="modal-body small">
+            <p>一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十</p>
+            <hr>
+            <p>一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十</p>
+          </div>
+          <div class="modal-footer">
+          <a class="btn btn-default" data-dismiss="modal">關閉</a>
+            <a href="https://forum.jrf.org.tw/c/lawyer/9-category" target="_blank" class="btn btn-primary" >更多討論</a>
+          </div>
+
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+<!-- 經驗故事2end -->
 <!-- 登入 -->
 <div id="log_in" class="modal fade in">
       <div class="modal-dialog">
