@@ -10,18 +10,36 @@ File Description: Place here your custom CSS styles
 */
 body {
   min-height: 0px;
-  padding-top: 70px;
+  padding-top: 0px;
   font-family: 'Open Sans', Helvetica, Arial, "Source Han Sans TC", "Microsoft Jhenghei", sans-serif;
 	font-size: large;
 	line-height: 1.60;
 	color: #666666;
-	background-color: #ffffff
+	background-color: #e5bfa1;
+}
+.btn-log-in{
+  margin-top: 10px;
+  background-color: #86c26b;
+  font-size: 14px;
+  color: #fff2e7;
+}
+.btn-sign-up{
+  margin-top: 10px;
+  background-color: #59bdbb;
+  font-size: 14px;
+  color: #fff2e7;
+}
+.jumbotron{
+  background-color: #df542f;
+  appearance: none;
+  color: #ffffff;
 }
 .pr-5{
 	margin-right:5px;
 }
 .pr-10{
   margin-right:10px;
+}
 .modal-title{
 	font-weight: 700;
 }
