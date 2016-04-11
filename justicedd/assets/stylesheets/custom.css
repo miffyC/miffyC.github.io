@@ -17,10 +17,11 @@ body {
 	color: #666666;
 	background-color: #ffffff
 }
-span.glyphicon, 
-span.label{
+.pr-5{
 	margin-right:5px;
 }
+.pr-10{
+  margin-right:10px;
 .modal-title{
 	font-weight: 700;
 }
