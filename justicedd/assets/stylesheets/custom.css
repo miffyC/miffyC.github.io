@@ -18,21 +18,36 @@ body {
 	background-color: #e5bfa1;
 }
 .btn-log-in{
-  margin-top: 10px;
   background-color: #86c26b;
   font-size: 14px;
   color: #fff2e7;
+  border-radius: 0px !important;
 }
 .btn-sign-up{
-  margin-top: 10px;
   background-color: #59bdbb;
   font-size: 14px;
   color: #fff2e7;
+  border-radius: 0px !important;
 }
 .jumbotron{
   background-color: #df542f;
-  appearance: none;
   color: #ffffff;
+  padding: 10px;
+  border-radius: 0px !important;
+}
+.btn-list{
+    background-color: #f37b21;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 0px !important;
+}
+.btn-list:hover{
+    background-color: #ffffff;
+    color: #df542f;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 0px !important;
+    box-shadow:4px 4px rgba(20%,20%,40%,0.5);
 }
 .pr-5{
 	margin-right:5px;
