@@ -47,7 +47,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     border-radius: 0px !important;
-    box-shadow:4px 4px rgba(20%,20%,40%,0.5);
+    box-shadow:4px -4px rgba(20%,20%,40%,0.5);
 }
 .pr-5{
 	margin-right:5px;
