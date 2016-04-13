@@ -17,43 +17,189 @@ body {
 	color: #666666;
 	background-color: #e5bfa1;
 }
+/*登入按鈕*/
 .btn-log-in{
   background-color: #86c26b;
   font-size: 14px;
   color: #fff2e7;
   border-radius: 0px !important;
 }
+/*註冊按鈕*/
 .btn-sign-up{
   background-color: #59bdbb;
   font-size: 14px;
   color: #fff2e7;
   border-radius: 0px !important;
 }
-.jumbotron{
+/*主圖+階段按鈕*/
+.board-container{
   background-color: #df542f;
   color: #ffffff;
-  padding: 10px;
-  border-radius: 0px !important;
+  padding-top: 10px;
 }
-.btn-list{
+.board-footer{
+  background-color: #eb8f2d;
+  color: #ffffff;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+.btn-step{
     background-color: #f37b21;
     color: #ffffff;
     font-size: 16px;
     border-radius: 0px !important;
+    margin: 0px;
+    padding-right:30px;
+    padding-left:30px;
+    margin-bottom:10px; 
 }
-.btn-list:hover{
+.btn-step:hover{
     background-color: #ffffff;
     color: #df542f;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 0px !important;
-    box-shadow:4px -4px rgba(20%,20%,40%,0.5);
+    box-shadow:4px -5px rgba(20%,20%,40%,0.5);
+    margin-bottom:5px;
+}
+/*主標欄*/
+.step1-logo{
+  color: #df542f;
+  font-size: 36px;
+  position: relative;
+  top:7px;
+}
+.board-footer-left{
+  position: relative;
+  right: -63px;
+  top:50px;
+}
+.board-footer-right{
+  position: relative;
+  left: -64px;
+  top: 50px;
+  z-index: -99;
+}
+/*.lead-text{
+  padding-right:40px;
+  padding-left: 45px; 
+}*/
+.btn-list-1{
+  background-color: #eb8f2d;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 0px !important;
+  margin: 0px;
+  margin-bottom:7px; 
+}
+.btn-list-1:hover{
+    background-color: #ffffff;
+    color: #df542f;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow:2px -2px rgba(20%,20%,40%,0.5);
+    margin-bottom:7px;
+}
+.btn-list-2{
+  background-color: #e4732b;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 0px !important;
+  margin: 0px;
+  margin-bottom:7px; 
+}
+.btn-list-2:hover{
+    background-color: #ffffff;
+    color: #df542f;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow:2px -2px rgba(20%,20%,40%,0.5);
+    margin-bottom:7px;
+}
+.btn-list-3{
+  background-color: #df542f;
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 0px !important;
+  margin: 0px;
+  margin-bottom:7px; 
+}
+.btn-list-3:hover{
+    background-color: #ffffff;
+    color: #df542f;
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow:2px -2px rgba(20%,20%,40%,0.5);
+    margin-bottom:7px;
+}
+.btn-no-check{
+  border-radius: 0px !important;
+  background-color: #aaaaaa;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  padding-left:5px;
+  padding-right: 5px;
+  margin-right:3px; 
+}
+.btn-no-check:hover{
+  background-color: #df542f;
+  color: #ffffff;
+}
+.btn-check{
+  border-radius: 0px !important;
+  background-color: #df542f;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  padding-left:5px;
+  padding-right: 5px;
+  margin-right:3px; 
+}
+.btn-check:hover{
+  color: #ffffff;
+}
+.list{
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: #ffffff;
+  min-height: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.list a{
+  color: #4a4a4a;
+  text-decoration:none;
+}
+.list a:hover{
+  font-weight: 600;
+  font-size: 20px;
+}
+.nobreak{
+    display:inline-block;
+}
+.pr-3{
+  margin-right:3px;
 }
 .pr-5{
 	margin-right:5px;
 }
+.pl-5{
+  margin-left:5px;
+}
+.pl-53{
+  margin-left:53px;
+}
 .pr-10{
   margin-right:10px;
+}
+.pt-50{
+  margin-top: 40px;
+}
+.pb-3{
+  margin-bottom:3px;
 }
 .modal-title{
 	font-weight: 700;

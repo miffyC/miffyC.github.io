@@ -21,131 +21,78 @@
     <![endif]-->
   </head>
   <body>
-<!-- 內容 -->
-    <div class="container col-lg-8 col-lg-offset-2">
 <!-- 佈告欄 -->
-      <div class="jumbotron">
+<div class="col-xs-12">
+	<div class="board-container col-xs-12 col-sm-8 col-sm-offset-2">
       	<div class="row">
-    	<div class="pull-right btn-group-sm">
+    	  <div class="pull-right btn-group-sm pr-10">
             <a class="btn btn-log-in" data-toggle="modal" href="#log_in">登入</a>
             <a class="btn btn-sign-up" data-toggle="modal" href="#sign_up">註冊</a>
           </div>
         </div>
-	    <p class="text-center"><a href="index.html"><img class="img-responsive center-block" src="img/logo-index.png"></p>
+	    <p class="text-center"><a href="index.html"><img class="img-responsive center-block" src="img/logo-index.png"></a></p>
 	    <p class="text-center"><img class="img-responsive center-block" src="img/title.png"></p>
         <div class="row text-center">
-          <a class="btn btn-list" href="step1.html">第一階段<br>健康檢查</a>
-          <a class="btn btn-list" href="step1.html">第二階段<br>評估體能</a>
-          <a class="btn btn-list" href="step1.html">第三階段<br>訓練項目</a>
+          <a class="btn btn-step" href="step1.html">第一階段<br>健康檢查</a>
+          <a class="btn btn-step" href="step1.html">第二階段<br>評估體能</a>
+          <a class="btn btn-step" href="step1.html">第三階段<br>訓練項目</a>
         </div>
-      </div>
+    </div>
+</div>
+<div class="col-xs-12">
+	<div class="col-sm-2 text-right">
+		<div class="board-footer-left visible-lg"><img src="img/left.png" height="70px"></div>
+	</div>
+	<div class="board-footer col-xs-12 col-sm-8">
+	<p class="text-center lead"><span class="nobreak pr-5">問題搜集<span class="pl-5 step1-logo"><i class="glyphicon glyphicon-check"></i></span></span><span class="nobreak">你對司法也有相同的感受嗎？</span><span class="nobreak">請勾選你的意見</span></p>
+	</div>
+	<div class="col-sm-2">
+		<div class="board-footer-right visible-lg"><img src="img/right.png" height="70px"></div>
+	</div>
+</div>
 <!-- 佈告欄end -->
-
-    <h1><span class="glyphicon glyphicon-check pr-10"></span>我覺得…</h1>
-    <p class="lead">有相同的經歷嗎？請勾選</p>
+<!-- 引言 -->
+<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+<div class="pt-50 visible-lg"></div>
+	<P class="small lead-text">一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十一二三四五六七八九十</P>
+</div>
+<!-- 引言end -->
+<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+	<div class="btn-group btn-group-sm pl-53" data-toggle="buttons">
+        <label class="btn btn-list-1 pr-3">
+            <input type="radio" name="options" id="option1">由新至舊
+        </label>
+        <label class="btn btn-list-2 pr-3">
+            <input type="radio" name="options" id="option2">由多至少
+        </label>
+        <label class="btn btn-list-3 pr-3">
+            <input type="radio" name="options" id="option2">近期熱門
+        </label>
+    </div>
+</div>
 <!-- 問題清單 -->
-<section>
-    <div class="btn-group btn-group-sm" data-toggle="buttons">
-            <label class="btn btn-default">
-              <input type="radio" name="options" id="option1">由新至舊
-            </label>
-            <label class="btn btn-default">
-              <input type="radio" name="options" id="option2">由多至少
-            </label>
-            <label class="btn btn-default">
-              <input type="radio" name="options" id="option2">近期熱門
-            </label>
-    </div>
-    <table class="table table-hover">
-    <thead>
-      <tr>
-        <th width="8%">累計</th>
-        <th>病徵描述</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="label label-danger"><span class="glyphicon glyphicon-user"></span>101</span>
-        </td>
-        <td>
-          <input type="checkbox" value="symp-1" checked>
-          <label></label>
-          <a data-toggle="modal" href="#symp-1">法官的判決與人民的期待有落差</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">法官檢察官誤判了</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-3">
-          <label></label>
-          <a data-toggle="modal" href="#symp-3">一般人如果遇到司法案件，會不知道該怎麼辦</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">司法忽視被害人的權益</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">官司拖太久，打官司也要花很多錢</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">律師沒有妥善地為當事人主張他的權益</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">許多案件在偵查的時候媒體就大肆報導，造成輿論公審</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">警察法治觀念薄弱，未依法執行勤務或進行犯罪偵查</a>
-        </td>
-      </tr>
-      <tr>
-        <td><span class="label label-default"><span class="glyphicon glyphicon-user"></span>101</span></td>
-        <td>
-          <input type="checkbox" value="symp-2">
-          <label></label>
-          <a data-toggle="modal" href="#symp-2">法官檢察官立場偏頗、開庭態度不好</a>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-</section>
+<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+	<div class="row pb-3">
+		<div class="col-xs-1">
+		<a class="btn btn-no-check" href="#"><i class="glyphicon glyphicon-check"></i></a>
+		</div>
+		<div class="col-xs-10 list"><span>+201</span><a data-toggle="modal" href="#symp-1">法官的判決與人民的期待有落差</a></div>
+	</div>
+	<div class="row pb-3">
+		<div class="col-xs-1"><a class="btn btn-check" href="#"><i class="glyphicon glyphicon-check"></i></a></div>
+		<div class="col-xs-11 list">
+			<a data-toggle="modal" href="#symp-2">法官檢察官誤判了</a>
+		</div>
+	</div>
+</div>
 <!-- 問題清單end --> 
-    <p class="lead">有更多不一樣的經歷？請告訴我們</p>
-    <p class="text-center">
-    <a class="btn btn-default btn-lg" href="https://forum.jrf.org.tw/" target="_blank">分享經歷</a></p>
-    
+<div class="col-xs-12">
+	<div class="col-sm-8 col-xs-12 col-sm-offset-2">
+	    <p class="lead">有更多不一樣的經歷？請告訴我們</p>
+	    <p class="text-center">
+	    <a class="btn btn-default btn-lg" href="https://forum.jrf.org.tw/" target="_blank">分享經歷</a></p>  
     </div>
+</div>
 <!-- 經驗故事1 -->
 <div id="symp-1" class="modal fade in">
       <div class="modal-dialog">
