@@ -1,13 +1,9 @@
-/*
-Theme Name: iDea - Clean & Powerful Bootstrap Theme
-Author: HtmlCoder
-Author URI: http://www.htmlcoder.me
-Author e-mail: htmlcoder.me@gmail.com
-Version: 1.1.0 
-Created: August 2014
-License URI: http://support.wrapbootstrap.com/
-File Description: Place here your custom CSS styles
-*/
+@media (max-width: 768px) {
+  .text-symp{
+
+  }
+}
+
 body {
   min-height: 0px;
   padding-top: 0px;
@@ -115,10 +111,6 @@ body {
   top: 50px;
   z-index: -99;
 }
-/*.lead-text{
-  padding-right:40px;
-  padding-left: 45px; 
-}*/
 .btn-list-1{
   background-color: #eb8f2d;
   color: #ffffff;
@@ -220,7 +212,6 @@ body {
   padding-bottom: 5px;
   background-color: #ffffff;
   min-height: 50px;
-  font-size: 20px;
   font-weight: 500;
   margin-left:0px; 
   width: 100%;
@@ -231,7 +222,6 @@ body {
 }
 .list a:hover{
   font-weight: 600;
-  font-size: 20px;
 }
 .list:hover{
   background-color:#fbf8f8;
