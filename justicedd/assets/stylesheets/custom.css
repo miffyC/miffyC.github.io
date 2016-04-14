@@ -1,14 +1,3 @@
-@media (max-width: 768px) {
-  .list{
-  padding-top: 3px;
-  padding-bottom: 5px;
-  background-color: #ffffff;
-  min-height: 50px;
-  font-weight: 500;
-  margin-left:0px; 
-  width: 100%;
-  }
-}
 
 body {
   min-height: 0px;
@@ -117,6 +106,7 @@ body {
   top: 50px;
   z-index: -99;
 }
+/*排序按鈕*/
 .btn-list-1{
   background-color: #eb8f2d;
   color: #ffffff;
@@ -165,62 +155,49 @@ body {
     box-shadow:2px -2px rgba(20%,20%,40%,0.5);
     margin-bottom:3px;
 }
-.btn-no-check{
-  border-radius: 0px !important;
-  background-color: #aaaaaa;
-  color: #ffffff;
-  width: 50px;
-  min-height: 50px;
-  font-size: 30px;
-  padding-left:5px;
-  padding-right: 5px;
-  margin-top: 0px;
-}
-.btn-no-check:hover,
-.btn-no-check:active{
-  background-color: #df542f;
-  color: #ffffff;
+/*勾選按鈕*/
+.btn-check:before{
+  content:"\e067";
+  font-family:"Glyphicons Halflings";
 }
 .btn-check{
   border-radius: 0px !important;
+  background-color: #aaaaaa;
+  color: #ffffff;
+  width: 60px;
+  min-height: 60px;
+  font-size: 35px;
+  padding-left:5px;
+  padding-right:5px;
+}
+.btn-check.active,.btn-check:hover,.btn-check:active{
   background-color: #df542f;
   color: #ffffff;
-  width: 50px;
-  min-height: 50px;
-  font-size: 30px;
-  padding-left:5px;
-  padding-right: 5px;
 }
-.btn-check:hover{
-  color: #ffffff;
-}
-.nbr-no-check{
+/*計數*/
+.nbr-check{
   font-size: 22px;
   color: #9b9b9b;
   font-weight: 600;
   padding-left: 5px;
   padding-right: 5px;
 }
-.nbr-check{
-  font-size: 22px;
+.nbr-check.active{
   color: #df542f;
-  font-weight: 600;
-  padding-left: 5px;
-  padding-right: 5px;
 }
+/*問題清單*/
 .table-list th,
 .table-list td{
   border: 2px solid #e5bfa1 !important;
   vertical-align: top;
 }
 .list{
-  padding-top: 2px;
-  padding-bottom: 2px;
   background-color: #ffffff;
-  min-height: 50px;
+  min-height: 100%;
   font-weight: 500;
   margin-left:0px; 
   width: 100%;
+  vertical-align: middle !important; 
 }
 .list a{
   color: #4a4a4a;
@@ -232,6 +209,30 @@ body {
 .list:hover{
   background-color:#fbf8f8;
 }
+/*分頁按鈕*/
+.pagination>li>a, .pagination>li>span {
+    color: #ffffff;
+    background-color: #eb8f2d;
+    border: 1px solid #e5bfa1;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #e4732b;
+  background-color: #ffffff;
+  border: 1px solid #e5bfa1;
+  box-shadow:1px -1px rgba(20%,20%,40%,0.5);
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #df542f;
+    border: 1px solid #e5bfa1;
+}
+/*go討論區*/
 .text-gotalk{
   font-size: 24px;
   letter-spacing: 2px;
@@ -256,6 +257,7 @@ body {
     box-shadow:2px -2px rgba(20%,20%,40%,0.5);
     margin-bottom: 3px;
 }
+/*彈出視窗*/
 .modal-header{
    background-color:#df542f;
    color: #ffffff;
@@ -267,6 +269,7 @@ body {
   font-weight: 600;
   color: #df542f;
 }
+/*text*/
 h4.lv4{
   font-weight: 600;
   color: #b85743;
@@ -284,7 +287,6 @@ h4.lv4{
 }
 .dl-horizontal dd {
   min-height: 35px;
-  /*margin-left: 80px;*/
 }
 
 .nobreak{
@@ -299,8 +301,8 @@ h4.lv4{
 .pl-5{
   margin-left:5px;
 }
-.pl-55{
-  margin-left:55px;
+.pl-64{
+  margin-left:64px;
 }
 .pr-10{
   margin-right:10px;
@@ -317,6 +319,7 @@ h4.lv4{
 .modal-title{
 	font-weight: 700;
 }
+/*表單*/
 fieldset.scheduler-border {
     border: 1px groove #df542f !important;
     padding: 0 1.4em 1.4em 1.4em !important;
