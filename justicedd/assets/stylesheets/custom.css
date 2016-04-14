@@ -88,7 +88,7 @@ body {
     margin: 0px;
     margin-bottom:10px; 
 }
-.btn-step:hover{
+.btn-step.active,.btn-step:hover{
     background-color: #ffffff;
     color: #df542f;
     font-size: 16px;
