@@ -162,7 +162,7 @@ body {
   padding-left:5px;
   padding-right:5px;
 }
-.btn-check.active,.btn-check:hover,.btn-check:active{
+.btn-check.active,.btn-check:hover{
   background-color: #df542f;
   color: #ffffff;
 }
