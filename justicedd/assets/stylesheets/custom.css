@@ -123,14 +123,6 @@ body {
   margin: 0px;
   margin-bottom:3px; 
 }
-.btn-list-1:hover{
-    background-color: #ffffff;
-    color: #df542f;
-    font-size: 12px;
-    font-weight: 600;
-    box-shadow:2px -2px rgba(20%,20%,40%,0.5);
-    margin-bottom:3px;
-}
 .btn-list-2{
   background-color: #e4732b;
   color: #ffffff;
@@ -138,14 +130,6 @@ body {
   border-radius: 0px !important;
   margin: 0px;
   margin-bottom:3px; 
-}
-.btn-list-2:hover{
-    background-color: #ffffff;
-    color: #df542f;
-    font-size: 12px;
-    font-weight: 600;
-    box-shadow:2px -2px rgba(20%,20%,40%,0.5);
-    margin-bottom:3px;
 }
 .btn-list-3{
   background-color: #df542f;
@@ -155,7 +139,7 @@ body {
   margin: 0px;
   margin-bottom:3px; 
 }
-.btn-list-3:hover{
+.btn-list-1.active,.btn-list-1:hover,.btn-list-2.active,.btn-list-2:hover,.btn-list-3.active,.btn-list-3:hover{
     background-color: #ffffff;
     color: #df542f;
     font-size: 12px;
