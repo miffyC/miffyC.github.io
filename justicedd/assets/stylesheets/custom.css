@@ -326,3 +326,10 @@ legend.scheduler-border {
     padding:0 10px; /* To give a bit of padding on the left and right */
     border-bottom:none;
 }
+footer>.col-xs-12{
+  background-color: #eb8f2d;
+  margin-top: 30px;
+  padding-top: 20px;
+  color: #ffffff;
+  font-weight: 300;
+}
