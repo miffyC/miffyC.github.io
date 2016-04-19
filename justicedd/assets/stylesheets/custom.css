@@ -9,6 +9,14 @@ body {
   font-weight: 500;
 	background-color: #e5bfa1;
 }
+
+/*錯誤訊息*/
+.alert{
+  border-radius: 0px !important;
+  font-size: 14px;
+  padding: 3px;
+  margin-bottom: 0px;
+}
 /*登入按鈕*/
 .btn-log-in{
   background-color: #86c26b;
