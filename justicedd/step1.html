@@ -24,11 +24,6 @@
     <!-- 佈告欄 -->
     <div class="col-xs-12">
         <div class="board-container col-xs-12 col-md-8 col-md-offset-2">
-
-            <div class="alert alert-warning fade in col-xs-12 col-sm-8 pull-left">
-                <button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i class="fa fa-times fa-2"></i></button>
-                <p><strong><i class="fa fa-ban pl-5 pr-5"></i></strong>密碼錯誤，請重新登入。<a data-toggle="modal" href="#get_pw">忘記密碼？</a></p>
-             </div>
             <div class="row">
                 <div class="pull-right btn-group-sm pr-10">
                     <a class="btn btn-log-in" data-toggle="modal" href="#log_in">登入</a>
@@ -178,6 +173,10 @@
                     <form class="form-horizontal" role="form">
                         <fieldset class="scheduler-border">
                             <legend class="scheduler-border">一般登入</legend>
+                            <div class="alert alert-warning fade in">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true"><i class="fa fa-times fa-2"></i></button>
+                                <p><strong><i class="fa fa-ban pl-5 pr-5"></i></strong>密碼錯誤，請重新登入。若忘記密碼請填寫您註冊的E-mail，並點選「忘記密碼」我們會將密碼寄送至您的信箱。</p>
+                             </div>
                             <div class="form-group">
                                 <label for="inputEmail3" class="col-sm-2 control-label">E-mail</label>
                                 <div class="col-sm-8">
@@ -190,9 +189,11 @@
                                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                                 </div>
                             </div>
+                            
                             <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="button" class="btn btn-gotalk">登入</button>
+                                <div class="text-center">
+                                    <a class="btn btn-gotalk pr-3">登入</a>
+                                    <a data-toggle="modal" class="btn btn-gotalk" href="#get_pw">忘記密碼</a>
                                 </div>
                             </div>
                         </fieldset>
