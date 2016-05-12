@@ -340,3 +340,9 @@ footer>.col-xs-12{
   color: #ffffff;
   font-weight: 300;
 }
+.dl-horizontal > dt{
+  width: 70px;
+}
+.dl-horizontal > dd{
+  margin-left: 80px;
+}
