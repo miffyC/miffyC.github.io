@@ -208,23 +208,44 @@ body {
 .list:hover{
   background-color:#fbf8f8;
 }
+
 /*分頁按鈕*/
-.pagination>li>a, .pagination>li>span {
+.pagination {
+    display: inline-block;
+}
+.pagination>span {
     color: #ffffff;
     background-color: #eb8f2d;
     border: 1px solid #e5bfa1;
+    display: inline-block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0px;
 }
-.pagination > li > a:hover,
-.pagination > li > span:hover,
-.pagination > li > a:focus,
-.pagination > li > span:focus {
+.pagination > span > a{
+  text-decoration:none;
+  color: #ffffff;
+}
+.pagination > span:hover,
+.pagination > span:focus {
   z-index: 2;
   color: #e4732b;
   background-color: #ffffff;
   border: 1px solid #e5bfa1;
   box-shadow:1px -1px rgba(20%,20%,40%,0.5);
 }
-.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+.pagination > span:hover>a,
+.pagination > span:focus>a{
+  text-decoration:none;
+  color: #e4732b;
+}
+.pagination>.current,
+.pagination>.current>a:hover,
+.pagination>.current>span,
+.pagination>.current>span:focus,
+.pagination>.current>span:hover {
     z-index: 3;
     color: #fff;
     cursor: default;
