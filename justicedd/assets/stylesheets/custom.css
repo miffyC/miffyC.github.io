@@ -379,3 +379,14 @@ footer>.col-xs-12{
 .dl-horizontal > dd{
   margin-left: 80px;
 }
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    background-color: #df542f;
+    border: 1px solid #fff;
+}
+.nav-tabs {
+    border-bottom: 1px solid #fff;
+}
+a {
+    color: #df542f;
+}
