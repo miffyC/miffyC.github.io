@@ -392,7 +392,7 @@ a {
 }
 .w-font{
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
 }
 .bg {
   background-color: #e5bfa1 !important;
@@ -407,42 +407,17 @@ a {
     background-image: linear-gradient(to bottom,#ffffff 0,#e5bfa1 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
 }
-/* Tooltip container */
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
 
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 99;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -60px;
-    opacity: 0;
-    transition: opacity 1s;
+.popover{
+  max-width:200px;
+  font-family: 'Open Sans', Helvetica, Arial, "Source Han Sans TC", "Microsoft Jhenghei", sans-serif !important;
 }
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
+.popover.top{
+  margin-top:-10px;
+  margin-left: 60px;
 }
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-    opacity: 1;
+.popover-title{
+  font-weight: 600;
+  color:#ffffff;
+  background-color:#df542f;
 }
