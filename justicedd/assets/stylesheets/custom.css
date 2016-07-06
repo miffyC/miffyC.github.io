@@ -390,3 +390,59 @@ footer>.col-xs-12{
 a {
     color: #df542f;
 }
+.w-font{
+  color: #ffffff;
+  font-size: 16px;
+}
+.bg {
+  background-color: #e5bfa1 !important;
+}
+.bg1 {
+  background-color: #df542f !important;
+}
+.panel-default>.panel-heading {
+    background-image: -webkit-linear-gradient(top,#ffffff 0,#e5bfa1 100%);
+    background-image: -o-linear-gradient(top,#ffffff 0,#e5bfa1 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#ffffff),to(#e5bfa1));
+    background-image: linear-gradient(to bottom,#ffffff 0,#e5bfa1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
+}
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 99;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
