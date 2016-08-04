@@ -276,3 +276,16 @@ a:hover {
 .sign {
 	max-width: 200px;
 }
+
+.rotate {
+	animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
