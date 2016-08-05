@@ -166,21 +166,6 @@
 		<script type="text/javascript">
 			$(function() {
 				Page.init();
-
-				$('.scroller').scroll(function() {
-					// 先取得 #scroller 及其各種高度
-		  			var $scroller = $('.scroller'),
-					_height = $scroller.height(), 
-					_scrollHeight =  $scroller.prop('scrollHeight'), 
-					_maxScrollHeight = _scrollHeight - _height - 20,
-					_least = 0; // 距離底部多少就可以, 0 表示得完全到底部
-
-		   			var $this = $(this);
-		   			// 如果高度已經達到指定的高度就啟用 $submit
-		   			if (_maxScrollHeight - $this.scrollTop() <= _least) {
-		   				$("#bb-nav-prev").click();
-		   			}
-				});
 			});
 		</script>
 	</body>

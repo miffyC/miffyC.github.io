@@ -111,6 +111,14 @@ var Page = (function() {
 		
 		if( action === 'init' && apiJSP === undefined ) {
 			$content.jScrollPane({verticalGutter : 0, hideFocus : true });
+			$content.bind('jsp-scroll-y', 
+				function(event, scrollPositionY, isAtTop, isAtBottom) {
+					console.log($(this).parent().prop("id") + " scrolled, position " + scrollPositionY);
+					if (isAtBottom) {
+		   				$("#bb-nav-next").click();
+					}
+				}
+			);
 		}
 		else if( action === 'reinit' && apiJSP !== undefined ) {
 			apiJSP.reinitialise();

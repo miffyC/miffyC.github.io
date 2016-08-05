@@ -278,7 +278,7 @@ a:hover {
 }
 
 .rotate {
-	animation: rotate 2s infinite linear;
+	animation: rotate 2s 1 linear;
 }
 
 @keyframes rotate {
