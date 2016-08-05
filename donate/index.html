@@ -16,6 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="css/bookblock.css" />
 		<link rel="stylesheet" type="text/css" href="css/custom.css" />
 		<script src="js/modernizr.custom.79639.js"></script>
+		
 	</head>
 	<body>
 		<div id="container" class="container">	
@@ -148,6 +149,7 @@
 				<nav>
 					<span id="bb-nav-prev"><i class="fa fa-arrow-left"></i></span>
 					<span id="bb-nav-next"><i class="fa fa-arrow-right"></i></span>
+
 				</nav>
 
 				<span id="tblcontents" class="menu-button">目錄</span>
@@ -161,11 +163,24 @@
 		<script src="js/jquerypp.custom.js"></script>
 		<script src="js/jquery.bookblock.js"></script>
 		<script src="js/page.js"></script>
-		<script>
+		<script type="text/javascript">
 			$(function() {
-
 				Page.init();
 
+				$('.scroller').scroll(function() {
+					// 先取得 #scroller 及其各種高度
+		  			var $scroller = $('.scroller'),
+					_height = $scroller.height(), 
+					_scrollHeight =  $scroller.prop('scrollHeight'), 
+					_maxScrollHeight = _scrollHeight - _height - 20,
+					_least = 0; // 距離底部多少就可以, 0 表示得完全到底部
+
+		   			var $this = $(this);
+		   			// 如果高度已經達到指定的高度就啟用 $submit
+		   			if (_maxScrollHeight - $this.scrollTop() <= _least) {
+		   				$("#bb-nav-prev").click();
+		   			}
+				});
 			});
 		</script>
 	</body>
