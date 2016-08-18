@@ -77,6 +77,8 @@ var Page = (function() {
 			},
 			'mousewheel': function(event) {
 				// JRF: implement wheeling flip page
+				if (bb.isAnimating) return; // Do not flip page when animating
+
 				var $content = $items.eq(current).children('div.content');
 				var apiJSP = $content.data('jsp');
 				if (!apiJSP.getIsScrollableV()) {
