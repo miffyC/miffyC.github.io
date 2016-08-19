@@ -241,6 +241,7 @@ a:hover {
 
 .no-js .content h2 {
 	padding: 40px 1% 20px;
+	font-weight: 600;
 }
 
 .content p {
@@ -250,8 +251,30 @@ a:hover {
 	padding: 5px 8%;
 	text-align: justify;
 }
+.content ol, .content ul
+{
+	font-size: 1.2em;
+	line-height: 1.8;
+	font-weight: 300;
+	padding: 5px 12%;
+}
+.content ul li ul {
+	font-size: 1em;
+	padding-left: 2em;
+}
+.content ol li p {
+	font-size: 1em;
+	padding-left: 2em;
+}
 .text-center{
 	text-align: center !important;
+}
+.lh-2 {
+	line-height:1.2;
+	padding: 5px 8%;
+}
+.table {
+	font-size: 1.2em;
 }
 
 @media screen and (max-width: 800px){
