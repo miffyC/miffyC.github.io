@@ -12,7 +12,7 @@ html {
 
 .navbar-custom,
 body {
-    background-color: #466C95
+    background-color: #ED9153
 }
 
 .intro,
@@ -74,7 +74,7 @@ a {
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #1d9b6c
+    color: #53435B
 }
 
 .light {
@@ -161,7 +161,7 @@ a:hover {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) bottom center no-repeat #DA5C53;
+    background: url(../img/intro-bg.jpg) bottom center no-repeat fixed #ED9153;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -259,7 +259,7 @@ a:hover {
 }
 
 .content-section {
-    padding-top: 100px
+    padding-top: 20px
 }
 
 .download-section {
@@ -281,7 +281,7 @@ a:hover {
 
 @media (min-width:767px) {
     .content-section {
-        padding-top: 250px
+        padding-top: 100px
     }
     .download-section {
         padding: 100px 0
