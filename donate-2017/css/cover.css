@@ -10,9 +10,9 @@ html {
     width: 100%;
 }
 
-.navbar-custom,
-body {
-    background-color: #ED9153
+.navbar-custom {
+    background-color: #000000;
+    color: #FFCB89;
 }
 
 .intro,
@@ -22,7 +22,8 @@ html {
 }
 
 body {
-    font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif, '微軟正黑體';
+    background-color: #FFCB89;
+    font-family: '微軟正黑體';
     color: #fff;
     webkit-tap-highlight-color: rgba(255, 255, 255, .2)
 }
@@ -161,7 +162,7 @@ a:hover {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) bottom center no-repeat fixed #ED9153;
+    background: url(../img/intro-bg.jpg) bottom center no-repeat fixed #FFCB89;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -259,27 +260,15 @@ a:hover {
 }
 
 .content-section {
-    padding-top: 20px
-}
-
-.download-section {
-    width: 100%;
-    padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) center center no-repeat #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover
+    padding-top: 50px;
+    background-color: #FFCB89;
+    color:#A45B00;
 }
 
 
 @media (min-width:767px) {
     .content-section {
-        padding-top: 100px;
-    }
-    .download-section {
-        padding: 100px 0
+        padding-top: 50px;
     }
 }
 
@@ -327,7 +316,9 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0
+    padding: 50px 0;
+    background-color: #000000;
+    color: #cccccc;
 }
 
 footer p {
