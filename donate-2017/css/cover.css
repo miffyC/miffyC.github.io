@@ -87,8 +87,8 @@ blockquote:before {
     height: 50px;
     padding: 5px;
 }
-.fa-4 {
-    font-size: 4em;
+.fa-3 {
+    font-size: 3em;
 }
 .fa-8 {
     font-size: 8em;
@@ -96,7 +96,29 @@ blockquote:before {
 .nobreak{
     display: inline-block;
 }
+.btn {
+    font-weight: 600;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
 
+.btn-default {
+    border: 2px solid #FFCB89;
+    color: #FFCB89;
+    background: 0 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    text-shadow: none;
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    border: 2px solid #FFCB89;
+    background-color: #FFCB89;
+    color: #543A3A;
+}
 @media (min-width:768px) {
     p {
         margin: 0 0 35px;
@@ -106,7 +128,6 @@ blockquote:before {
 }
 
 a {
-    color: #42DCA3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out
@@ -115,7 +136,6 @@ a {
 a:focus,
 a:hover {
     text-decoration: none;
-    color: #53435B
 }
 
 .light {
@@ -300,38 +320,28 @@ a:hover {
 }
 
 .content-section {
-    padding-top: 50px;
+    padding: 40px;
     background-color: #FFCB89;
-    color:#A45B00;
+    color:#543A3A;
+    text-align: justify;
 }
 
+.donate {
+    padding: 40px;
+    background-color: #543A3A;
+    color:#FFCB89;
+}
+.gift{
+    background-color: rgba(255, 255, 255, .2); 
+    box-shadow: 3px 3px 3px rgba(255, 255, 255, .4);
+    border-radius: 5px;
+    padding: 20px
+}
 
 @media (min-width:767px) {
     .content-section {
         padding-top: 50px;
     }
-}
-
-.btn {
-    font-weight: 400;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    border-radius: 0
-}
-
-.btn-default {
-    border: 1px solid #42DCA3;
-    color: #42DCA3;
-    background-color: transparent
-}
-
-.btn-default:focus,
-.btn-default:hover {
-    border: 1px solid #42DCA3;
-    outline: 0;
-    color: #000;
-    background-color: #42DCA3
 }
 
 ul.banner-social-buttons {
