@@ -98,7 +98,8 @@ h6 {
 	padding-top: 20px;
 }
 p {
-	margin-bottom: 10px;
+	margin-top: 20px;
+    margin-bottom: 20px;
 }
 a {
 	color: #e84c3d;
@@ -329,7 +330,6 @@ tbody {
 	padding: 10px 0;
 }
 .banner {
-	background-color: #f1f1f1;
 	border-bottom: 1px solid #eaeaea;
 }
 .page-intro {
@@ -346,7 +346,7 @@ tbody {
 	z-index: 2;
 }
 .page-top {
-	padding: 40px 0;
+	padding: 80px 0;
 }
 .main-container {
 	padding: 40px 0;
@@ -2065,9 +2065,9 @@ tbody {
 
 /* The color of default buttons is the color of current color scheme */
 .btn-default {
-	background-color: #e84c3d;
+	background-color: #b73c5a;
 	color: #fff !important;
-	border-color: #cd3c2e;
+	border-color: #b73c5a;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -4823,11 +4823,9 @@ ul.tweets li span {
 
 /* Isotope filtering
 ---------------------------------- */
-.isotope-container {
-	display: none;
-}
 .isotope-item {
 	margin-bottom: 30px;
+	height: 60px;
 }
 .grid-space-20 .isotope-item {
 	margin-bottom: 20px;

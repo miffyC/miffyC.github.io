@@ -61,8 +61,21 @@ h2 i{
 }
 .blogpost-content h4.title {
 	font-size:18px;
-	height:60px;
+	min-height:60px;
 }
 .owl-controls .owl-pagination{
 	bottom: 0px;
+}
+*[id]:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden; 
+}
+#footer:before,#navbar-collapse-1:before {
+  content: " "; 
+  margin-top: 0px;
+  height: 0px;
+  visibility: hidden; 
 }
