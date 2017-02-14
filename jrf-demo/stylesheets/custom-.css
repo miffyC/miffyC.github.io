@@ -99,3 +99,8 @@ h2 i{
 .text-white{
 	color: #fff
 }
+.index-boder{
+	border-width: 1px;
+    border-color: #ddd;
+    border-radius: 4px 4px 0 0;
+}
