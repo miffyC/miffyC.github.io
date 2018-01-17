@@ -1,165 +1,341 @@
 <!doctype html>
 <html lang="zh-tw">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
     <title>Hello, world!</title>
-  </head>
-  <body>
-  	<div class="container">
-      <div class="jumbotron mt-3">
-        <h1>民間司改會</h1>
-        <p class="lead">This example is a quick exercise to illustrate how the bottom navbar works.</p>
-        <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
-      </div>
-      <h1>Hello, world!</h1>
-      <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery-ui/js/jquery-ui-1.9.1.custom.min.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery-ui/development-bundle/ui/i18n/jquery.ui.datepicker-zh-TW.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery-ui/css/custom-theme/jquery-ui-1.9.1.custom.css");</style>
+</head>
 
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/flexigrid.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/flexigrid.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.autocomplete.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/jquery.autocomplete.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jsTree.v.1.0rc2/jquery.jstree.min.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jsTree.v.1.0rc2/themes/default/style.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.menu.pack.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/menu.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.chainedSelects.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.contextMenu.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.tableHeader.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/checkboxselect.js"></script>
-
-    <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/ckeditor/ckeditor.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.textarearesizer.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.form.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.tokeninput.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/token-input-facebook.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.timeentry.pack.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.mousewheel.pack.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.toolTip.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/DataTables-1.7.2/media/js/jquery.dataTables.min.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/DataTables-1.7.2/media/css/demo_table_jui.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.FormNavigate.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.chosen.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/jquery.chosen.css");</style>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.simplemodal.min.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/rest.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.crmaccordions.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.crmasmselect.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.crmtooltip.js"></script>
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.disablesubmit.js"></script>
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.dashboard.js"></script>
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/dashboard.css");</style>
-
-
-<script type="text/javascript">var cj = jQuery.noConflict(); $ = cj;</script>
-
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/fontawesome/css/font-awesome.min.css");</style>
-
-<style type="text/css">@import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/material-design-iconic-font/css/material-design-iconic-font.min.css");</style><form  action="https://jrf.neticrm.tw/civicrm/profile/create?gid=17&amp;reset=1" method="post" name="Edit" id="Edit" >
-
-
-
-  <div><input name="pageKey" type="hidden" value="CRM_UF_Page_Group_HKNrwC69" />
-<input name="submit_once_check" type="hidden" value="submit-once-5a5eec8662ab8" />
-<input name="_qf_default" type="hidden" value="Edit:next" />
-</div>
-
-
-
-<script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/Common.js"></script>
- 
-    <div class="messages status">
-        
-        資料表單搜尋、查看、編輯功能，將在多種類型欄位時無法使用（如會員類型 + 聯絡人姓名）。
-    </div>
-
-<script type="text/javascript">
-    
-cj(document).ready(function(){ 
-	cj('#selector tr:even').addClass('odd-row ');
-	cj('#selector tr:odd ').addClass('even-row');
-});
-
-
-  cj('form input:not([type="submit"])').keydown(function (e) {
-    if (e.keyCode == 13) {
-      if(cj(this).attr('id') == 'neticrm_sort_name_navigation'){
-        return true;
-      }
-      var inputs = cj(this).parents("form").eq(0).find(':input:visible');
-      if (inputs[inputs.index(this) + 1] != null && ( inputs.index(this) + 1 ) < inputs.length) {                    
-          inputs[inputs.index(this) + 1].focus();
-      }
-      cj(this).blur();
-      e.preventDefault();
-      return false;
-    }
-  });
-</script>
-
-
-</form>
-    </div>
-
-    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">民間司改會</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropup">
-            <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown10">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-3">
+            <h1>民間司改會</h1>
+            <p class="lead">This example is a quick exercise to illustrate how the bottom navbar works.</p>
+            <a class="btn btn-lg btn-primary" href="../../components/navbar/" role="button">View navbar docs &raquo;</a>
+        </div>
+        <h1>Hello, world!</h1>
+        <!-- -->
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery-ui/js/jquery-ui-1.9.1.custom.min.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery-ui/development-bundle/ui/i18n/jquery.ui.datepicker-zh-TW.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/jquery-ui/css/custom-theme/jquery-ui-1.9.1.custom.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/flexigrid.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/flexigrid.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.autocomplete.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/jquery.autocomplete.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jsTree.v.1.0rc2/jquery.jstree.min.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jsTree.v.1.0rc2/themes/default/style.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.menu.pack.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/menu.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.chainedSelects.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.contextMenu.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.tableHeader.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/checkboxselect.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/ckeditor/ckeditor.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.textarearesizer.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.form.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.tokeninput.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/token-input-facebook.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.timeentry.pack.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.mousewheel.pack.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.toolTip.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/DataTables-1.7.2/media/js/jquery.dataTables.min.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/DataTables-1.7.2/media/css/demo_table_jui.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.FormNavigate.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.chosen.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/jquery.chosen.css");
+        </style>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.simplemodal.min.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/rest.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.crmaccordions.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.crmasmselect.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.crmtooltip.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/jquery/jquery.disablesubmit.js"></script>
+        <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/plugins/jquery.dashboard.js"></script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/jquery/css/dashboard.css");
+        </style>
+        <script type="text/javascript">
+        var cj = jQuery.noConflict();
+        $ = cj;
+        </script>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/fontawesome/css/font-awesome.min.css");
+        </style>
+        <style type="text/css">
+        @import url("https://jrf.neticrm.tw/sites/all/modules/civicrm/packages/material-design-iconic-font/css/material-design-iconic-font.min.css");
+        </style>
+        <form action="https://jrf.neticrm.tw/civicrm/profile/create?gid=69&amp;reset=1" method="post" name="Edit" id="Edit">
+            <div>
+                <input name="pageKey" type="hidden" value="CRM_UF_Page_Group_b3YCux7T" />
+                <input name="submit_once_check" type="hidden" value="submit-once-5a5f453a7ccbf" />
+                <input name="_qf_default" type="hidden" value="Edit:next" />
             </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
+            <script type="text/javascript" src="https://jrf.neticrm.tw/sites/all/modules/civicrm/js/Common.js"></script>
+            <div id="crm-container" class="crm-container" lang="zh" xml:lang="zh">
+                <div class="form-layout-compressed">
+                    <div id="editrow-last_name" class="crm-section editrow_last_name-section form-item">
+                        <div class="label">
+                            <label for="last_name"> 姓
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-textfield">
+                                <input maxlength="64" size="30" name="last_name" type="text" id="last_name" class="form-text big required" />
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-first_name" class="crm-section editrow_first_name-section form-item">
+                        <div class="label">
+                            <label for="first_name"> 名
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-textfield">
+                                <input maxlength="64" size="30" name="first_name" type="text" id="first_name" class="form-text big required" />
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-phone-Primary-2" class="crm-section editrow_phone-Primary-2-section form-item">
+                        <div class="label">
+                            <label for="phone-Primary-2"> 手機
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-textfield">
+                                <input maxlength="32" size="20" name="phone-Primary-2" type="text" id="phone-Primary-2" class="form-text medium required" />
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-email-Primary" class="crm-section editrow_email-Primary-section form-item">
+                        <div class="label">
+                            <label for="email-Primary"> E-mail
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-textfield">
+                                <input maxlength="64" size="30" name="email-Primary" type="text" id="email-Primary" class="form-text big required" />
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-custom_8" class="crm-section editrow_custom_8-section form-item">
+                        <div class="label">
+                            <label for="custom_8"> 工作單位／就讀學校
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-textfield">
+                                <input name="custom_8" type="text" id="custom_8" class="form-text required" />
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="crm-section editrow_custom_138-section form-item" id="editrow-custom_138">
+                        <div class="label">
+                            <label> 選用劇本
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="content edit-value">
+                            <table class="form-layout-compressed">
+                                <tr>
+                                    <td class="labels font-light">
+                                        <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_bao_shi_qie_dao_an_2">
+                                            <input value="寶石竊盜案" type="radio" id="civicrm_qfid_bao_shi_qie_dao_an_2" name="custom_138" class="form-radio" /><span class="elem-label">寶石竊盜案</span></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="labels font-light">
+                                        <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_dou_ou_an_4">
+                                            <input value="鬥毆案" type="radio" id="civicrm_qfid_dou_ou_an_4" name="custom_138" class="form-radio" /><span class="elem-label">鬥毆案</span></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="labels font-light">
+                                        <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_ktvfan_du_an_6">
+                                            <input value="KTV販毒案" type="radio" id="civicrm_qfid_ktvfan_du_an_6" name="custom_138" class="form-radio" /><span class="elem-label">KTV販毒案</span></label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="labels font-light">
+                                        <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_jian_shi_yi_yun_an_8">
+                                            <input value="撿屍疑雲案" type="radio" id="civicrm_qfid_jian_shi_yi_yun_an_8" name="custom_138" class="form-radio" /><span class="elem-label">撿屍疑雲案</span></label>
+                                    </td>
+                                </tr>
+                                <tr></tr>
+                            </table><span class="crm-clear-link">(<a href="#" title="unselect" onclick="unselectRadio('custom_138', 'Edit'); return false;">重填</a>)</span></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-custom_139" class="crm-section editrow_custom_139-section form-item">
+                        <div class="label">
+                            <label> 投影設備
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_you_10">
+                                <input value="有" type="radio" id="civicrm_qfid_you_10" name="custom_139" class="form-radio" /><span class="elem-label">有</span></label>&nbsp;
+                            <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_wu_12">
+                                <input value="無" type="radio" id="civicrm_qfid_wu_12" name="custom_139" class="form-radio" /><span class="elem-label">無</span></label>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-custom_143" class="crm-section editrow_custom_143-section form-item">
+                        <div class="label">
+                            <label for="custom_143"> 麥克風數量
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-select crm-form-select-single">
+                                <select name="custom_143" id="custom_143" class="form-select required">
+                                    <option value="">- 選擇 -</option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="crm-section editrow_custom_144-section form-item" id="editrow-custom_144">
+                        <div class="label">
+                            <label> 需借用法袍
+                                <span class="crm-marker" title="此欄位不可空白。">*</span>
+                            </label>
+                        </div>
+                        <div class="content edit-value">
+                            <table class="form-layout-compressed">
+                                <tr>
+                                    <td class="labels font-light">
+                                        <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_shi_14">
+                                            <input value="是" type="radio" id="civicrm_qfid_shi_14" name="custom_144" class="form-radio" /><span class="elem-label">是</span></label>
+                                    </td>
+                                    <td class="labels font-light">
+                                        <label class="crm-form-elem crm-form-radio" for="civicrm_qfid_fou_16">
+                                            <input value="否" type="radio" id="civicrm_qfid_fou_16" name="custom_144" class="form-radio" /><span class="elem-label">否</span></label>
+                                    </td>
+                                </tr>
+                                <tr></tr>
+                            </table><span class="crm-clear-link">(<a href="#" title="unselect" onclick="unselectRadio('custom_144', 'Edit'); return false;">重填</a>)</span></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div id="editrow-custom_10" class="crm-section editrow_custom_10-section form-item">
+                        <div class="label">
+                            <label for="custom_10">備註</label>
+                        </div>
+                        <div class="edit-value content">
+                            <div class="crm-form-elem crm-form-textfield">
+                                <input name="custom_10" type="text" id="custom_10" class="form-text" />
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <!-- end form-layout-compressed for last profile -->
+                <div class="crm-section recaptcha-section">
+                    <div class="label"></div>
+                    <div class="content">
+                        <div class="g-recaptcha" data-sitekey=""></div>
+                        <script src="//www.google.com/recaptcha/api.js"></script>
+                    </div>
+                </div>
+                <script type="text/javascript">
+                cj('.recaptcha_label').attr('width', '140px');
+                </script>
+                <div class="crm-submit-buttons">
+                    <span class="crm-button crm-button-type-next crm-button_qf_Edit_next"><input data="submit-once" class="form-submit default" name="_qf_Edit_next" value="送出 &gt;&gt; " type="submit" id="_qf_Edit_next" /></span>
+                </div>
+            </div>
+            <script type="text/javascript">
+            </script>
+            <script type="text/javascript">
+            cj(document).ready(function() {
+                cj('#selector tr:even').addClass('odd-row ');
+                cj('#selector tr:odd ').addClass('even-row');
+            });
 
+
+            cj('form input:not([type="submit"])').keydown(function(e) {
+                if (e.keyCode == 13) {
+                    if (cj(this).attr('id') == 'neticrm_sort_name_navigation') {
+                        return true;
+                    }
+                    var inputs = cj(this).parents("form").eq(0).find(':input:visible');
+                    if (inputs[inputs.index(this) + 1] != null && (inputs.index(this) + 1) < inputs.length) {
+                        inputs[inputs.index(this) + 1].focus();
+                    }
+                    cj(this).blur();
+                    e.preventDefault();
+                    return false;
+                }
+            });
+            </script>
+        </form>
+    </div>
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">民間司改會</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class="nav-item dropup">
+                    <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown10">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
