@@ -1,4 +1,11 @@
-.h1, h1,h2,h3,h4,h5,p ,span{
+.h1, h1,h2,h3,h4,h5,p ,span,a{
 	font-family: '微軟正黑體';
 	font-weight: bold;
+}
+.navbar,li,footer {
+	font-family: '微軟正黑體';
+}
+footer{
+	background-color: #000;
+	padding: 2em;
 }
