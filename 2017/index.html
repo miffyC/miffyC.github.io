@@ -30,16 +30,28 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/scrolloverflow.js"></script>
-
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
-	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript" src="js/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="js/fullpage.continuousHorizontal.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fullpage.extensions.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				anchors: ['index', 'intro2016','intro2017','info', 'project'],
 				menu: '#menu',
 				loopTop: true,
-				loopBottom: true
+				loopBottom: true,
+				continuousHorizontal: true,
+				continuousHorizontalKey: 'anJmLm9yZy50d190R3JZMjl1ZEdsdWRXOTFjMGh2Y21sNmIyNTBZV3c9OVM1',
+				
+				slidesNavigation: true,
+				slidesNavPosition: 'bottom',
+				afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){
+					console.log("slideLoad--" + "anchorLink: " + anchorLink + " index: " + index + " slideAnchor: " + slideAnchor + " slideIndex: " + slideIndex);
+				},
+				onSlideLeave: function(anchorLink, index, slideIndex, direction){
+					console.log("----------------");
+					console.log("onSlideLeave--" + "anchorLink: " + anchorLink + " index: " + index + " slideIndex: " + slideIndex + " direction: " + direction);
+				}
 			});
 		});
 	</script>
