@@ -14,10 +14,11 @@ footer{
 	margin-top:20px;
 }
 .scrollToTop {
-    color: #fff;
+    color: #fcf8e3;
+    background-color: #0B3954;
     position: fixed;
-    font-size: 2em;
-    bottom: 5px;
+    font-size: 1.8em;
+    bottom: 6px;
     right: 5px;
     width: 40px;
     height: 40px;
@@ -26,6 +27,7 @@ footer{
     z-index: 1005;
     display: none;
     border-radius: 50%;
+	/* border: 1px solid #fcf8e3; */
     }
 .nav-tabs {
     border-bottom: 1px solid #fcf8e3;
