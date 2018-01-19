@@ -4,6 +4,10 @@
 .h1, h1,h2,h3,h4,h5{
 	font-weight: bold;
 }
+p{
+	font-size: 1.2em;
+	line-height: 1.6;
+}
 footer{
 	background-color: rgba(0,0,0,0.7);
 	padding: 2em;
@@ -40,4 +44,10 @@ footer{
     color: #555;
     background-color: #fcf8e3;
     border: 1px solid #fcf8e3;
+}
+.nobreak{
+	display: inline-block;
+}
+.navbar-inverse{
+	background-image:linear-gradient(to bottom,#0B3954 0,#222 100%);
 }
