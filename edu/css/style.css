@@ -19,7 +19,7 @@ footer{
 }
 .scrollToTop {
     color: #fcf8e3;
-    background-color: #0B3954;
+    background-color: #3535A8;
     position: fixed;
     font-size: 1.8em;
     bottom: 10px;
@@ -31,10 +31,10 @@ footer{
     z-index: 1005;
     display: none;
     border-radius: 50%;
-	/* border: 1px solid #fcf8e3; */
+	/* border: 1px solid #F2B45A; */
     }
 .nav-tabs {
-    border-bottom: 1px solid #fcf8e3;
+    border-bottom: 1px solid #F2B45A;
 }
 .tab-pane {
 	padding: 20px;
@@ -49,5 +49,11 @@ footer{
 	display: inline-block;
 }
 .navbar-inverse{
-	background-image:linear-gradient(to bottom,#0B3954 0,#222 100%);
+	background-image:linear-gradient(to bottom,#ED701B 0,#ED701B 100%);
+}
+.table-bordered {
+    border: 1px solid #fcf8e3;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+	border: 1px solid #fcf8e3;
 }
