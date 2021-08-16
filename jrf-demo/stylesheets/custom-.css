@@ -1,13 +1,3 @@
-/*
-Theme Name: iDea - Clean & Powerful Bootstrap Theme
-Author: HtmlCoder
-Author URI: http://www.htmlcoder.me
-Author e-mail: htmlcoder.me@gmail.com
-Version: 1.1.0 
-Created: August 2014
-License URI: http://support.wrapbootstrap.com/
-File Description: Place here your custom CSS styles
-*/
 .tp-caption.small_thin_white {
 	font-size: 18px;
 	line-height: 1.9;
@@ -66,7 +56,7 @@ h2 i{
 .owl-controls .owl-pagination{
 	bottom: 0px;
 }
-*[id]:before { 
+.text *[id]:before { 
   display: block; 
   content: " "; 
   margin-top: -80px;
@@ -103,4 +93,22 @@ h2 i{
 	border-width: 1px;
     border-color: #ddd;
     border-radius: 4px 4px 0 0;
+}
+.slider-banner-container{
+	height:600px;
+}
+.pt60 {
+	padding-top:60px;
+}
+.d-icon-s {
+	position: fixed;
+  right: 0;
+  top: 5%;
+  z-index: 99;
+}
+.d-icon-l {
+	position: fixed;
+  right: 0;
+  top: 80px;
+  z-index: 99
 }
